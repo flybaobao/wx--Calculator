@@ -1,0 +1,35 @@
+<view class='content'>
+  <view class='screen'>
+    {{dataResult}}
+  </view>
+  <view class='btnGroup'>
+    <view class='item orgin' bindtap='clickButton' id='{{idBack}}'>退格</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idClear}}'>清楚</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idReverse}}'>+/-</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idAdd}}'>+</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item blue' bindtap='clickButton' id='{{idNine}}'>9</view>
+    <view class='item blue' bindtap='clickButton' id='{{idEight}}'>8</view>
+    <view class='item blue' bindtap='clickButton' id='{{idSeven}}'>7</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idReduce}}'>-</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item blue' bindtap='clickButton' id='{{idSix}}'>6</view>
+    <view class='item blue' bindtap='clickButton' id='{{idFive}}'>5</view>
+    <view class='item blue' bindtap='clickButton' id='{{idFour}}'>4</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idRide}}'>×</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item blue' bindtap='clickButton' id='{{idThree}}'>3</view>
+    <view class='item blue' bindtap='clickButton' id='{{idTwo}}'>2</view>
+    <view class='item blue' bindtap='clickButton' id='{{idOne}}'>1</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idExcept}}'>÷</view>
+  </view>
+  <view class='btnGroup'>
+    <view class='item blue' bindtap='clickButton' id='{{idZore}}'>0</view>
+    <view class='item blue' bindtap='clickButton' id='{{idSpot}}'>.</view>
+    <view class='item blue' bindtap='history' id='{{idHistory}}'>历史</view>
+    <view class='item orgin' bindtap='clickButton' id='{{idOver}}'>=</view>
+  </view>
+</view>

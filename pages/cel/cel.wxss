@@ -1,0 +1,41 @@
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: silver;
+}
+.screen{
+  width: 720rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-right: 10rpx;
+  margin: 30rpx 0;
+  border-radius: 3px;
+  text-align: right;
+  background-color: #fff;
+}
+.btnGroup{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  width: 160rpx;
+  min-height: 150rpx;
+  line-height: 150rpx;
+  text-align: center;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  border-radius: 5px;
+}
+.orgin{
+  border: 1px solid lightgoldenrodyellow;
+  background-color: orange;
+  color: white;
+}
+.blue{
+  border: 1px solid lightblue;
+  background-color: blue;
+  color: white;
+}
